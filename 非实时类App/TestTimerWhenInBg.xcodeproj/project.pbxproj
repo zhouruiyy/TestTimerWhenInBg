@@ -14,6 +14,10 @@
 		F0807C1A2E4B350D00A695F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0807C192E4B350D00A695F1 /* Assets.xcassets */; };
 		F0807C1D2E4B350D00A695F1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F0807C1C2E4B350D00A695F1 /* Base */; };
 		F0807C202E4B350D00A695F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0807C1F2E4B350D00A695F1 /* main.m */; };
+		F0NOBG012E4BBBBB00A695F1 /* PlainNoBGTimerRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = F0NOBG002E4BBBBB00A695F1 /* PlainNoBGTimerRunner.m */; };
+		F0PLAIN012E4BAAAA00A695F1 /* PlainGCDTimerRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = F0PLAIN002E4BAAAA00A695F1 /* PlainGCDTimerRunner.m */; };
+		F0POSIX012E4BCCCD00A695F1 /* SignalPosixTimerRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = F0POSIX002E4BCCCD00A695F1 /* SignalPosixTimerRunner.m */; };
+		F0TIMER012E4B999900A695F1 /* TimerAccuracyTester.m in Sources */ = {isa = PBXBuildFile; fileRef = F0TIMER002E4B999900A695F1 /* TimerAccuracyTester.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,14 @@
 		F0807C1C2E4B350D00A695F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0807C1E2E4B350D00A695F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0807C1F2E4B350D00A695F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0NOBG002E4BBBBB00A695F1 /* PlainNoBGTimerRunner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlainNoBGTimerRunner.m; sourceTree = "<group>"; };
+		F0NOBG003E4BBBBB00A695F1 /* PlainNoBGTimerRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlainNoBGTimerRunner.h; sourceTree = "<group>"; };
+		F0PLAIN002E4BAAAA00A695F1 /* PlainGCDTimerRunner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlainGCDTimerRunner.m; sourceTree = "<group>"; };
+		F0PLAIN003E4BAAAA00A695F1 /* PlainGCDTimerRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlainGCDTimerRunner.h; sourceTree = "<group>"; };
+		F0POSIX002E4BCCCD00A695F1 /* SignalPosixTimerRunner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignalPosixTimerRunner.m; sourceTree = "<group>"; };
+		F0POSIX003E4BCCCD00A695F1 /* SignalPosixTimerRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalPosixTimerRunner.h; sourceTree = "<group>"; };
+		F0TIMER002E4B999900A695F1 /* TimerAccuracyTester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerAccuracyTester.m; sourceTree = "<group>"; };
+		F0TIMER003E4B999900A695F1 /* TimerAccuracyTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerAccuracyTester.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,14 @@
 				F0807C112E4B350C00A695F1 /* SceneDelegate.m */,
 				F0807C132E4B350C00A695F1 /* ViewController.h */,
 				F0807C142E4B350C00A695F1 /* ViewController.m */,
+				F0TIMER003E4B999900A695F1 /* TimerAccuracyTester.h */,
+				F0TIMER002E4B999900A695F1 /* TimerAccuracyTester.m */,
+				F0PLAIN003E4BAAAA00A695F1 /* PlainGCDTimerRunner.h */,
+				F0PLAIN002E4BAAAA00A695F1 /* PlainGCDTimerRunner.m */,
+				F0NOBG003E4BBBBB00A695F1 /* PlainNoBGTimerRunner.h */,
+				F0NOBG002E4BBBBB00A695F1 /* PlainNoBGTimerRunner.m */,
+				F0POSIX003E4BCCCD00A695F1 /* SignalPosixTimerRunner.h */,
+				F0POSIX002E4BCCCD00A695F1 /* SignalPosixTimerRunner.m */,
 				F0807C162E4B350C00A695F1 /* Main.storyboard */,
 				F0807C192E4B350D00A695F1 /* Assets.xcassets */,
 				F0807C1B2E4B350D00A695F1 /* LaunchScreen.storyboard */,
@@ -150,6 +170,10 @@
 				F0807C0F2E4B350C00A695F1 /* AppDelegate.m in Sources */,
 				F0807C202E4B350D00A695F1 /* main.m in Sources */,
 				F0807C122E4B350C00A695F1 /* SceneDelegate.m in Sources */,
+				F0TIMER012E4B999900A695F1 /* TimerAccuracyTester.m in Sources */,
+				F0PLAIN012E4BAAAA00A695F1 /* PlainGCDTimerRunner.m in Sources */,
+				F0NOBG012E4BBBBB00A695F1 /* PlainNoBGTimerRunner.m in Sources */,
+				F0POSIX012E4BCCCD00A695F1 /* SignalPosixTimerRunner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
